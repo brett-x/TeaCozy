@@ -1,0 +1,107 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid seashell;
+  width: 98%;
+  height: 69px;
+  padding-left: 10px;
+  background-color: black;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+  padding: 10px;
+}
+.logo {
+  display: flex;
+  height: 50px;
+  flex-grow: 1;
+}
+
+nav {
+  padding-right: 10px;
+}
+
+.content {
+  padding-top: 69px;
+}
+
+.our-mission {
+  background-image: url(./resources/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: inline-block;
+  position: relative;
+}
+
+.mission-text {
+    background-color: black;
+    width: 1200px;
+    position: absolute;
+    top:40%;
+  }
+
+.monthly-text {
+  width: 1000px;
+  display: inline-block;
+}
+.text-images {
+  display: inline-block;
+  width: 1000px;
+}
+.text-image {
+  display: inline-block;
+  padding: 10px 0px;
+
+}
+
+
+.text-image img {
+  display:block;
+  height: 200px;
+  width: 300px;
+  padding: 0px 10px 10px 10px;
+
+}
+
+.text-image span {
+  display: block;
+}
+
+.locations-img {
+  background-image: url(./resources/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  display: inline-block;
+}
+
+.location {
+  display: inline-block;
+  background-color: black;
+  width: 300px;
+}
+.location span {
+  display: block ;
+}
+.contact {
+  height: 200px;
+
+}
+
+.copy {
+  text-align: left;
+  padding-left: 20px;
+}
